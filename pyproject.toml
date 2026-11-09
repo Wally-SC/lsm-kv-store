@@ -1,0 +1,9 @@
+[project]
+name = "lsm-kv-store"
+version = "0.1.0"
+description = "Banco chave-valor persistente baseado em LSM-tree (WAL + memtable + SSTables), feito do zero em Python."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
